@@ -1,5 +1,4 @@
-﻿using System.Threading;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace TestHarness.Tests
 {
@@ -9,7 +8,6 @@ namespace TestHarness.Tests
         [Test]
         public void OpenSite()
         {
-            Thread.Sleep(5000);
         }
     }
 }
